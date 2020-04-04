@@ -1,0 +1,12 @@
+# Use the input function to gather information about another movie. You need a title, director’s name, release year, and budget.
+
+movie = [("Szeregowiec Ryan", "Steven Spillberg", 1998)]
+
+new_title = input("Please provide title of your favourite film: ")
+new_director = input("Who direct this film? ")
+new_date = input("At what year it was produced? ")
+
+
+print(new_title)
+print(new_director)
+print(new_date)
