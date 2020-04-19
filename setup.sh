@@ -1,6 +1,8 @@
 #!/bin/bash
 
+path=`pwd`
+echo "Path:" $path
 cd /c/Program\ Files/Git/bin/
-exec ssh-agent bash
+exec -a ssh-agent bash
 ssh-add /c/Users/lukas/.ssh/thelofixBB
-cd -
+cd $path
